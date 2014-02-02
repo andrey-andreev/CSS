@@ -1,0 +1,33 @@
+﻿body {
+	
+}
+table{
+	font-size:15px;
+	font-family:Arial;
+	text-align:left;
+	text-transform:capitalize;
+    border-collapse:collapse;
+	border: 1px solid #9f9f90;
+}
+table ,th,td{
+    font-weight:lighter;
+	border-left: 1px solid #9f9f90;
+	padding:6px;
+}
+td{
+    padding-right:45px;
+}
+thead{
+	background-color:#66cd00;
+	color:white;
+}
+tr:nth-child(2n){
+	background-color:#f5f5dc;
+}
+.flag{
+	height:16px; 
+	width:25px;
+}
+p{
+    display:inline;
+}

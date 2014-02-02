@@ -1,0 +1,48 @@
+﻿body {
+    background-color:#A9A9A9;
+}
+/*--- headers ---*/
+h1{
+    color:#F9FAD3;
+}
+body>header{
+    text-align:center;
+}
+body>header>h1{
+    font-size:50px;
+}
+/*--- navigation ---*/
+nav li{
+    list-style:none;
+}
+nav a{
+    font-weight:bold;
+    font-size:25px;
+    color:white;
+    text-decoration:none;
+}
+.current{
+    background-color:#D3D3D3;
+}
+ul li:nth-child(4) a{
+    text-decoration:underline;
+}
+/*--- articles ---*/
+article h1{
+    font-size:35px;
+}
+article>p{
+    font-size:20px;
+}
+/*--- footers ---*/
+article>footer>p{
+    font-size:16px;
+}
+article>footer>p>a{
+    text-decoration:none;
+    color:black;
+}
+body>footer{
+    font-size:20px;
+    text-align:center;
+}
