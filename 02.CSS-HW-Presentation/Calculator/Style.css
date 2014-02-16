@@ -1,0 +1,206 @@
+﻿/* RESET */
+body,p,button,a,img,ul,li,table,tr,td,input,form{
+    margin:0;
+    padding:0;
+}
+
+#main-container,#second-container,#display-container,#binary-representation,#buttons,#numeral-sys-choice,#binary-length {
+    border: 1px solid #808080;
+    border-radius: 3px;
+    border-style: solid;
+}
+
+body {
+    font-size: 12px;
+    /*font-weight:bold;*/
+    font-family:'Segoe UI';
+}
+
+#main-container{
+    border-radius: 8px;
+    width:420px;
+    height:385px;
+    /*background-color: #a4c8ed;*/ 
+    background-color: #c0defb;
+    /*transparent*/
+}
+
+    #main-container #title{
+        padding-right:8px;
+    }
+
+        #main-container #title p{
+            position:relative;
+            display:inline;
+            padding-left:7px;
+            top:-3px;
+        }
+
+        #main-container #title>button{
+            font-size:12px;
+            font-weight:bolder;
+            float:right;
+            width:28px;
+            height:18px;
+            border-radius:0;
+            padding-bottom:15px;
+        }
+
+            #main-container #title #minimize-button{
+            }
+
+            #main-container #title #closing-button{
+                width:42px;
+            }
+
+        #main-container #title img{
+            padding-left:10px;
+            padding-top:6px;
+        }
+
+    #main-container #second-container{
+        position:relative;
+        left:7px;
+        top:4px;
+        width:404px;
+        height:347px;
+        background-color: #dbe6f2;
+    }
+        /*NAVIGATION*/
+        #main-container #second-container #nav{
+            border-bottom:solid 1px #808080;
+        }
+
+            #main-container #second-container #nav ul{
+                background-color:#f0f0f0;
+            }
+    
+                #main-container #second-container #nav ul li{
+                    display:inline-block;
+                }
+                    #main-container #second-container #nav ul li.selected a{
+                        color:#ffd800;
+                    }
+
+                    #main-container #second-container #nav ul li a{
+                        text-decoration:none;
+                        color:black;
+                        padding: 5px;
+                    }
+
+                        #main-container #second-container #nav>ul>li>a:hover{
+                            border: 1px solid black;
+                            border-radius: 3px;
+                            border-style: ridge;
+                            /*background-color:*/
+                            /*borders*/
+                        }
+
+                    #main-container #second-container #nav>ul>li>ul{
+                        display:none;
+                        position:absolute;
+                    }
+
+                        #main-container #second-container #nav>ul>li:hover ul{
+                            display:block;
+                        }
+
+                        #main-container #second-container #nav>ul>li>ul>li{
+                            display:block;
+                        }
+                        /*borders*/
+                        #main-container #second-container #nav>ul>li>ul p{
+                            display:inline;
+                        }
+        
+        
+    /*third-container*/
+    #third-container{
+        width:400px;
+        height:320px;
+        padding-bottom:5px;
+        padding-top:5px;
+    }
+
+    /*display-container*/
+    #display-container{
+        font-family:Consolas;
+        text-align:right;
+        width:380px;
+        height:48px;
+        margin-left:12px;
+        margin-right:12px;
+        margin-bottom:6px;
+        margin-top:2px;
+    }
+        
+        #display-container p{
+            font-size:22px;
+            font-weight:bold;
+            vertical-align:central;
+            padding-right:5px;
+            padding-top:18px;
+        }
+
+    /*binary-representation*/
+    #binary-representation{
+        margin-left:12px;
+        margin-right:6px;
+        margin-bottom:3px;
+        padding-left:12px;
+        max-width:380px;
+    }
+
+        #binary-representation table{
+            border-spacing:1px;
+        }
+
+        #binary-representation tr td{
+            font-family:Consolas;
+            text-align:justify;
+            width:55px;
+            
+        }
+    /*buttons*/
+    #buttons{
+        border:none;
+        float:right;
+        padding-right:3px;
+    }
+
+        #buttons button{
+            width:34px;
+            height:28px;
+            margin:1px;
+        }
+            #buttons #equals-button{
+                height:60px;
+            }
+
+            #buttons #zero-button{
+                width:72px;
+            }
+
+            #buttons #bin-operations{
+                font-size:66%;
+            }
+    /*numeral-sys-choice and binary-length*/
+    #numeral-sys-choice,#binary-length{
+        float:left;
+        width:71px;
+        height:85px;
+        margin-top:3px;
+        margin-left:12px;
+        padding-left:5px;
+        padding-top:5px;
+    }
+
+        #numeral-sys-choice input,#binary-length input{
+            margin-bottom:3px;
+            margin-top:3px;
+        }
+
+        #numeral-sys-choice p,#binary-length p{
+            display:inline;
+            font-size:12px;;
+        }

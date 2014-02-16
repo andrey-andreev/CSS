@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="main-container">
+        <div id="title">
+            <img src="calculator-img.png" alt="Alternate Text" />
+            <p>Calculator</p>
+            <button id="closing-button" type="button">&#9747</button>
+            <button id="maxsimize-button" type="button">&#9744</button>
+            <button id="minimize-button" type="button">_</button>
+        </div>
+        <div id="second-container">
+            <div id="nav">
+                <ul>
+                    <li>
+                        <a href="#" class="main-nav-menu">View</a>
+                        <ul>
+                            <li><a href="#"><p>Standard</p><p>Alt+1</p></a></li>
+                            <li><a href="#"><p>Scientific</p><p>Alt+2</p></a></li>
+                            <li><a href="#"><p>Programmer</p><p>Alt+3</p></a></li>
+                            <li><a href="#"><p>Statistics</p><p>Alt+4</p></a></li>
+                            <li><a href="#"><p>History</p><p>Ctrl+H</p></a></li>
+                            <li><a href="#"><p>Digit grouping</p></a></li>
+                            <li><a href="#"><p>Basic</p><p>Ctrl+F4</p></a></li>
+                            <li><a href="#"><p>Standard</p><p>Ctrl+U</p></a></li>
+                            <li><a href="#"><p>Standard</p><p>Ctrl+E</p></a></li>
+                            <li>
+                                <a href="#"><p>Worksheets</p></a>
+                                <ul>
+                                    <li>Mortgage</li>
+                                    <li>Behicle lease</li>
+                                    <li>Fuel economy (mpg)</li>
+                                    <li>Fuel economy (L/100 km)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="main-nav-menu">Edit</a>
+                        <ul>
+                            <li><a href="#"><p>Copy</p><p>Ctrl+C</p></a></li>
+                            <li><a href="#"><p>Paste</p><p>Ctrl+V</p></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="main-nav-menu">Help</a>
+                        <ul>
+                            <li><a href="#"><p>View Help</p><p>F1</p></a></li>
+                            <li><a href="#"><p>About Calculator</p></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="third-container">
+                <div id="display-container">
+                <p>8854455</p>
+            </div>
+                <div id="binary-representation">
+                    <table>
+                        <tr>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>0000</td>
+                        </tr>
+                        <tr>
+                            <td class="pallid" colspan="4">63</td>
+                            <td class="pallid" colspan="3">47</td>
+                            <td class="pallid">32</td>
+                        </tr>
+                        <tr>
+                            <td>0000</td>
+                            <td>0000</td>
+                            <td>1000</td>
+                            <td>0111</td>
+                            <td>0001</td>
+                            <td>1011</td>
+                            <td>1011</td>
+                            <td>0111</td>
+                        </tr>
+                        <tr>
+                            <td class="pallid" colspan="4">31</td>
+                            <td class="pallid" colspan="3">15</td>
+                            <td class="pallid">0</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="buttons">
+                    <table>
+                        <tr>
+                            <td><button type="button">&nbsp</button></td>
+                            <td><button class="bin-operations" type="button">Mod</button></td>
+                            <td><button type="button">A</button></td>
+                            <td><button type="button">MC</button></td>
+                            <td><button type="button">MR</button></td>
+                            <td><button type="button">MS</button></td>
+                            <td><button type="button">M+</button></td>
+                            <td><button type="button">M-</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="bin-operations" type="button">(</button></td>
+                            <td><button class="bin-operations" type="button">)</button></td>
+                            <td><button type="button">B</button></td>
+                            <td><button type="button">&#8592</button></td>
+                            <td><button type="button">CE</button></td>
+                            <td><button type="button">C</button></td>
+                            <td><button type="button">&#177</button></td>
+                            <td><button type="button">&#8730</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="bin-operations" type="button">RoL</button></td>
+                            <td><button class="bin-operations" type="button">RoR</button></td>
+                            <td><button type="button">C</button></td>
+                            <td><button type="button">7</button></td>
+                            <td><button type="button">8</button></td>
+                            <td><button type="button">9</button></td>
+                            <td><button type="button">/</button></td>
+                            <td><button type="button">%</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="bin-operations" type="button">Or</button></td>
+                            <td><button class="bin-operations" type="button">Xor</button></td>
+                            <td><button type="button">D</button></td>
+                            <td><button type="button">4</button></td>
+                            <td><button type="button">5</button></td>
+                            <td><button type="button">6</button></td>
+                            <td><button type="button">*</button></td>
+                            <td><button type="button">1/x</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="bin-operations" type="button">Lsh</button></td>
+                            <td><button class="bin-operations" type="button">Rsh</button></td>
+                            <td><button type="button">E</button></td>
+                            <td><button type="button">1</button></td>
+                            <td><button type="button">2</button></td>
+                            <td><button type="button">3</button></td>
+                            <td><button type="button">-</button></td>
+                            <td rowspan="2"><button id="equals-button" type="button">=</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="bin-operations" type="button">Not</button></td>
+                            <td><button class="bin-operations" type="button">And</button></td>
+                            <td><button type="button">F</button></td>
+                            <td colspan="2"><button id="zero-button" type="button">0</button></td>
+                            <td><button type="button">,</button></td>
+                            <td><button type="button">+</button></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="numeral-sys-choice">
+                    <input type="radio" name="numeral-system" value="hex" /><p>Hex</p><br/>
+                    <input type="radio" name="numeral-system" value="dec" /><p>Dec</p><br/>
+                    <input type="radio" name="numeral-system" value="oct" /><p>Oct</p><br/>
+                    <input type="radio" name="numeral-system" value="bin" /><p>Bin</p><br/>
+                </div>
+                <div id="binary-length">
+                    <input type="radio" name="binary-length" value="qword" /><p>Qword</p><br/>
+                    <input type="radio" name="binary-length" value="dword" /><p>Dword</p><br/>
+                    <input type="radio" name="binary-length" value="word" /><p>Word</p><br/>
+                    <input type="radio" name="binary-length" value="byte" /><p>Byte</p><br/>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

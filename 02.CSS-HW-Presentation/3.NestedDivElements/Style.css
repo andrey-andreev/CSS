@@ -1,0 +1,10 @@
+﻿body {
+}
+div>div {
+    border: 2px solid red;
+    border-radius: 100px;
+    width: 93%;
+    height: 93%;
+    color:black;
+    background-color:black;
+}
