@@ -1,0 +1,157 @@
+body,nav,section,article,header,footer,aside,p,a,div,br,hr,img{
+	margin:0;
+	padding:0;
+}
+
+body {
+	border: 1px solid black;
+	width:780px;
+	font-family:Verdana;
+	font-size:12px;
+}
+
+#main-container{
+	border: 1px solid black;
+	background-color:#f2f2f2;
+	overflow:auto;
+	margin:2px;
+}
+
+body nav {
+	width:126px;
+	float:left;
+	margin:2px;
+	font-size:11px;
+}
+
+	body nav a{
+		display:block;
+		text-decoration:none;
+		color:black;
+	}
+
+
+	body nav>a{
+		font-weight:bold;
+		display:inline-block;
+	}
+
+	body nav p{
+		display:inline;
+		color:#8b0000;	
+		font-weight:bold;
+	}
+body section {
+	float:left;
+	border: 1px solid gray;
+	width:480px;
+	margin:1px;
+	margin-top:4px;
+	background-color:white;
+	padding:6px;
+}
+
+    body section .buttons-nav{
+        margin-bottom:5px;
+        margin-top:5px;
+    }
+
+        body section .buttons-nav input{
+            background-color:white;
+            border:1px solid black;
+            border-radius:0px;
+            width:100px;
+            height:24px;
+            color:black;
+            cursor:pointer;
+            font-size:14px;
+        }
+
+	body section article{
+		padding-top:4px;
+		padding-bottom:4px;
+		font-size:11px;
+        overflow:auto;
+	}
+		body section article img[src="images/css-picture.PNG"]{
+			float:left;
+		}
+
+		body section article .bold-text{
+			font-weight:bold;
+		}
+
+		body section article a{
+			color:#8b0000;
+		}
+
+		body section article header p{
+			background-color:#878787;
+			color:white;
+			font-size:12px;
+			font-weight:bold;
+			margin-top:6px;
+			margin-bottom:6px;
+		}
+
+body aside {
+	width:146px;
+	float:right;
+	margin:2px;
+	margin-left:0;
+	font-size:11px;
+}
+
+	body aside>div {
+		border: 1px solid gray;
+		background-color:white;
+		margin:2px;
+	}
+
+        body aside div #styles25-div{
+            text-align:center;
+        }
+
+            body aside div #styles25-div #styles25{
+                width:110px;
+                height:32px;
+                border:1px solid #64d0ff;
+                border-radius:5px;
+                color:#64d0ff;
+                background-color:#caefff;
+                cursor:pointer;
+                margin-top:4px;
+            }
+
+		body aside>div a{
+			color:#8b0000;
+			display:block;
+			text-align:center;
+			margin:5px;
+		}
+
+		body aside>div p{
+			background-color:#878787;
+			color:white;
+			display:block;
+			margin:0;
+			font-weight:bold;
+			text-align:center;
+		}
+
+		body aside>div form{
+			margin:7px;
+			text-align: center
+		}
+
+			body aside>div form input[type="search"]{
+				width:80px;
+				border: 1px solid #8db6cd;
+			}
+
+			body aside>div form input[type="submit"]{
+				border: 1px solid #36648b;
+				border-radius:3px;
+				background-color:#f2f2f2;
+				width:20px;
+			}

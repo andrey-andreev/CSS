@@ -1,0 +1,77 @@
+﻿body,div,p,header,section,article,img,input{
+	margin:0;
+	padding:0;
+}
+
+body{
+    font-family:'Segoe UI';
+}
+
+section{
+	border:1px solid black;
+	background-color:#eee;
+	width:419px;    
+	min-height:500px;
+}
+
+    section header p {
+        font-size:16px;
+        margin:14px;
+        margin-left:26px;
+        font-family:DotumChe, Segoe UI;
+    }
+
+    section article{
+        border:1px solid gray;
+        background-color:#fff;
+        max-width:382px;
+        min-height:88px;
+        margin:26px;
+        padding:15px;
+    }
+    
+        section article#middle-article{
+            margin-bottom:36px;
+            margin-top:36px;
+        }
+
+        section article img{
+            border:1px solid gray;
+            width:130px;
+            height:86px;
+            margin-right:15px;
+            float:left;
+        }
+
+        section article img.clear{
+            clear:both;
+        }
+        
+        section article p{
+            font-size:12px;
+            min-height:52px;
+            padding:0;
+            margin:0;
+        }
+                
+        section article div.buttons{
+            min-height:25px;
+            margin-bottom:12px;
+        }
+            section article .buttons .listen-button,section article .buttons .add-button{
+                background-color:#cc0001;
+                background-image: url(images/listen-button.PNG);
+                border:none;
+                width:73px;
+                height:25px;
+                color:white;
+                cursor:pointer;
+                float:right;
+                margin-top:12px;
+            }
+
+            section article .buttons .add-button{
+                background-image: url(images/add-button.PNG);
+                width:60px;
+                margin-right:4px;
+            }

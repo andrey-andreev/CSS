@@ -1,0 +1,93 @@
+body,div,p,h1,h2,img,input{
+	margin:0;
+	padding:0;
+}
+
+body{
+    font-family:'Times New Roman';
+    font-size:14px;
+}
+
+#main-container{
+	border: 2px solid #806850;
+    border-radius:10px;
+	width:660px;
+}
+
+    #main-container #log-in{
+	    height:67px;
+        background-color:#363636;
+        border-top-left-radius:8px;
+        border-top-right-radius:8px;
+    }
+
+	    #main-container #log-in form{
+		    position:relative;
+            top:10px;
+            float:right;
+            margin-right:15px;
+	    }
+
+		    #main-container #log-in form h1{
+			    display:inline;
+                color:white;
+                font-size:28px;
+		    }
+
+            #main-container #log-in form input[name=go]{
+                background-color:#cc0001;
+                border:1px solid white;
+                border-radius:11px;
+                width:60px;
+                height:30px;
+                color:white;
+                font-size:16px;
+                cursor:pointer;
+            }
+
+            ::-webkit-input-placeholder{ /* WebKit browsers */
+                color:black;
+            }
+
+            :-moz-placeholder{  /* Mozilla Firefox 4 to 18 */
+                color:black;
+            }
+
+            ::-moz-placeholder { /* Mozilla Firefox 19+ */
+                color:black;
+            } 
+
+            :-ms-input-placeholder { /* Internet Explorer 10+ */
+                color:black;
+            }
+
+	    #main-container #log-in img{
+		    float:left;
+	    }
+
+    #main-container #section{
+        padding:12px;
+        background-color:#3b3b3b;
+        border-bottom-left-radius:8px;
+        border-bottom-right-radius:8px;
+        box-shadow:0px -15px 35px -15px black;
+    }
+
+        #main-container #section h2{
+            color:#fdd31c;
+            font-size:30px;
+        }
+
+        #main-container #section p{
+            font-family:Verdana;
+            color:#838383;
+        }
+
+            #main-container #section p span{
+                color:#cacaca;
+            }
+
+            #main-container #section p a {
+                color:#838383;
+                text-decoration:none;
+            }
