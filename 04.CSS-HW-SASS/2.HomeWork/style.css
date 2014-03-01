@@ -1,0 +1,35 @@
+body, ul, li, img, label {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-color: black;
+  padding: 25px; }
+  body ul > li {
+    display: inline-block; }
+    body ul > li img {
+      width: 100px;
+      height: 100px;
+      margin-left: 10px;
+      margin-top: 10px; }
+  body > label img {
+    display: none;
+    width: 450px;
+    height: 450px;
+    margin-left: 10px;
+    margin-top: 20px; }
+  body input {
+    display: none; }
+    body input:checked + label #bobsleigh-selected {
+      display: block; }
+    body input:checked + label #ice-hockey-selected {
+      display: block; }
+    body input:checked + label #luge-selected {
+      display: block; }
+    body input:checked + label #skeleton-selected {
+      display: block; }
+    body input:checked + label #ski-acrobatique-selected {
+      display: block; }
+    body input:checked + label #ski-jumping-selected {
+      display: block; }
+
